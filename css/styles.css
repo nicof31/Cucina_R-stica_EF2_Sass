@@ -1,3 +1,4 @@
+/*Titulos intermedios*/
 /****** INICIO PAGINA PRINCPAL (INDEX) ******/
 * {
   padding: 0;
@@ -143,18 +144,17 @@ main {
   text-decoration: none;
   justify-content: center;
   text-align: center;
-  margin: 40px;
+  margin: auto;
   font-size: 20px;
   color: #b73413;
-  margin: auto;
   display: flex;
-  font-weight: bold;
+  font-weight: 550;
 }
 
 .title_novedades h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: bold;
   font-style: bold;
-  font-weight: 500;
+  font-weight: 550;
 }
 
 .fondo_content {
@@ -239,6 +239,7 @@ main {
 }
 
 /****** FIN PAGINA PRINCPAL (INDEX) ******/
+/*Titulos intermedios*/
 /**----------APLICANDO BOOTSTRAP------------**/
 * {
   padding: 0;

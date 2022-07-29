@@ -1,3 +1,5 @@
+@import "variables";
+
 /****** INICIO PAGINA PRINCPAL (INDEX) ******/
 * {
   padding: 0;
@@ -144,19 +146,18 @@ main {
 .title_novedades {
   text-decoration: none;
   justify-content: center;
-  text-align: center;
-  margin: 40px;
-  font-size: 20px;
-  color: #b73413;
-  margin: auto;
+  text-align: $font-aling-titulos-itermedios;
+  margin: $font-margin-titulos-itermedios;
+  font-size: $font-size-titulos-itermedios;
+  color: $font-color-titulos-itermedios;
   display: flex;
-  font-weight: bold;
+  font-weight: $font-weight-titulos-itermedios;
 }
 
 .title_novedades h3 {
-  font-family: "Roboto", sans-serif;
-  font-style: bold;
-  font-weight: 500;
+  font-family: $font-style-titulos-itermedios;
+  font-style: $font-style-titulos-itermedios;
+  font-weight: $font-weight-titulos-itermedios;
 }
 
 .fondo_content {
