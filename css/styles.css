@@ -431,19 +431,19 @@ main .textos_main_galeria_tematica {
 }
 
 .textos_main_galeria_tematica h2 {
-  font-family: black;
+  font-family: "Caveat", cursive;
   font-style: bold;
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 900;
+  font-size: 35px;
   color: black;
 }
 
 .textos_main_galeria_tematica h3 {
-  color: black;
-  font-family: "Roboto", sans-serif;
+  font-family: "Caveat", cursive;
   font-style: bold;
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 900;
+  font-size: 35px;
+  color: black;
   text-shadow: 0.2em 0.1em 0.1em rgb(140, 145, 146);
   text-align: center;
 }
