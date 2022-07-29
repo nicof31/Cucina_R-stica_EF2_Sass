@@ -249,13 +249,13 @@ main {
   color: white;
   margin: 10px;
   font-size: 25px;
-}
-
-.icono_footer a i:hover {
-  color: orangered;
-  transform: scale(1.1);
-  transition: ease-in-out 0.1s;
-}
+          & i:hover {
+            color: orangered;
+            transform: scale(1.1);
+            transition: ease-in-out 0.1s;
+          }
+          
+        }
 
 
 /****** FIN PAGINA PRINCPAL (INDEX) ******/
