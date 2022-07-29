@@ -34,14 +34,13 @@
 }
 
 #navbarNavAltMarkup a {
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 300;
+  color: $font-color-nav;
+  font-family: $font-family-nav;
+  font-style: $font-style-nav;
+  font-weight: $font-weight-nav;
 }
 
 #navbarNavAltMarkup a:hover:not(.active) {
-  /*background-color: rgb(170, 116, 87);*/
   border-bottom: solid 3px white;
   transition: 0.5s;
 }
@@ -73,7 +72,6 @@
 }
 
 body {
-  font-family: "Shippori Antique B1", sans-serif;
   margin: 0%;
   padding: 0%;
 }
@@ -112,19 +110,19 @@ main {
 }
 
 .text_main h1 {
-  font-family: "Caveat", cursive;
-  font-style: normal;
-  font-weight: 400;
+  font-family: $font-family-main;
+  font-style: $font-style-main;
+  font-weight: $font-weight-main;
   font-size: 40px;
-  color: #f2f5f8;
+  color: $font-color-main;
 }
 
 .text_main h3 {
-  font-family: "Caveat", cursive;
-  font-style: normal;
-  font-weight: 400;
+  font-family: $font-family-main;
+  font-style: $font-style-main;
+  font-weight: $font-weight-main;
   font-size: 35px;
-  color: #f2f5f8;
+  color: $font-color-main;
 }
 
 .text_main {
@@ -135,9 +133,9 @@ main {
 .boton_main {
   border: solid 2px #b73413;
   margin-top: 1px;
-  font-family: "Caveat", cursive;
-  font-style: normal;
-  font-weight: 400;
+  font-family: $font-family-main;
+  font-style: $font-style-main;
+  font-weight: $font-weight-main;
   font-size: 20px;
   -webkit-text-stroke: 0.1px black;
 }
@@ -146,16 +144,17 @@ main {
 .title_novedades {
   text-decoration: none;
   justify-content: center;
+  display: flex;
   text-align: $font-aling-titulos-itermedios;
   margin: $font-margin-titulos-itermedios;
   font-size: $font-size-titulos-itermedios;
   color: $font-color-titulos-itermedios;
-  display: flex;
   font-weight: $font-weight-titulos-itermedios;
+  font-family: font-family-titulos-itermedios;
 }
 
 .title_novedades h3 {
-  font-family: $font-style-titulos-itermedios;
+  font-family: font-family-titulos-itermedios;
   font-style: $font-style-titulos-itermedios;
   font-weight: $font-weight-titulos-itermedios;
 }
@@ -187,15 +186,15 @@ main {
   }
 
   .text_main h1 {
-    -webkit-text-stroke: 1px #9a2609;
+    -webkit-text-stroke:$font-webkit-text-stroke-main;
     font-size: 60px;
-    font-style: bold;
+    font-style: $font-style-responsive-main;
   }
 
   .text_main h3 {
-    -webkit-text-stroke: 1px #9a2609;
+    -webkit-text-stroke: $font-webkit-text-stroke-main;
     font-size: 50px;
-    font-style: bold;
+    font-style: $font-style-responsive-main;
   }
 
   .boton_main {
@@ -234,8 +233,9 @@ main {
 
 #footer_boot {
   background-color: black;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-family: $font-family-footer;
+  font-style: $font-style-footer;
+  font-weight: $font-weight-footer;
 }
 
 #icono_footer {

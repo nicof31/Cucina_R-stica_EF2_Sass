@@ -1,4 +1,12 @@
-/*Titulos intermedios*/
+/*Fonts styles nav*/
+/*Fonts styles Titulos main*/
+/*Fonts styles Titulos main resposive max 768 /1024*/
+/*Fonts styles Titulos intermedios*/
+/*Font styles Footer*/
+/*Fonts styles pages recetarios - galeria tematica*/
+/*sub titulos pages recetarios - galeria tematica*/
+/*Textos pages recetarios - galeria tematica*/
+/*Textos <p> pages recetarios - galeria tematica*/
 /****** INICIO PAGINA PRINCPAL (INDEX) ******/
 * {
   padding: 0;
@@ -44,7 +52,6 @@
 }
 
 #navbarNavAltMarkup a:hover:not(.active) {
-  /*background-color: rgb(170, 116, 87);*/
   border-bottom: solid 3px white;
   transition: 0.5s;
 }
@@ -75,7 +82,6 @@
   }
 }
 body {
-  font-family: "Shippori Antique B1", sans-serif;
   margin: 0%;
   padding: 0%;
 }
@@ -143,16 +149,17 @@ main {
 .title_novedades {
   text-decoration: none;
   justify-content: center;
+  display: flex;
   text-align: center;
   margin: auto;
   font-size: 20px;
   color: #b73413;
-  display: flex;
   font-weight: 550;
+  font-family: font-family-titulos-itermedios;
 }
 
 .title_novedades h3 {
-  font-family: bold;
+  font-family: font-family-titulos-itermedios;
   font-style: bold;
   font-weight: 550;
 }
@@ -216,6 +223,7 @@ main {
 #footer_boot {
   background-color: black;
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 300;
 }
 
@@ -239,52 +247,15 @@ main {
 }
 
 /****** FIN PAGINA PRINCPAL (INDEX) ******/
-/*Titulos intermedios*/
-/**----------APLICANDO BOOTSTRAP------------**/
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.comentario_fondo {
-  background-color: #eee;
-}
-
-.nosotros_contenedor {
-  max-width: 80%;
-}
-
-/*---------sub pages ------*/
-.recetas_sub_pages {
-  margin: 2%;
-  border-radius: 20px;
-  background-color: rgba(236, 240, 193, 0.247);
-  box-shadow: 0 2px rgba(0, 0, 0, 0.2);
-  padding: 1%;
-  transition: all 0.25s;
-}
-
-.recetas_sub_pages:hover {
-  transform: translateY(-15px);
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-
-.recetas_sub_pages img {
-  border: solid black 2px;
-  border-radius: 10px;
-}
-
-.recetas_sub_pages h3 {
-  font-weight: bold;
-}
-
-.recetas_texto {
-  padding: 2%;
-}
-
-/**----------FIN BOOTSTRAP------------**/
-/******* PAGINAS CON CSS*******/
+/*Fonts styles nav*/
+/*Fonts styles Titulos main*/
+/*Fonts styles Titulos main resposive max 768 /1024*/
+/*Fonts styles Titulos intermedios*/
+/*Font styles Footer*/
+/*Fonts styles pages recetarios - galeria tematica*/
+/*sub titulos pages recetarios - galeria tematica*/
+/*Textos pages recetarios - galeria tematica*/
+/*Textos <p> pages recetarios - galeria tematica*/
 /****PAGES -RECETARIOS-****/
 /* MOBILE FIRST */
 #body_recetario {
@@ -325,8 +296,7 @@ main .textos_main_recetario {
 .title_recetarios {
   text-align: center;
   color: #b73413;
-  margin-top: 10px;
-  margin-left: 30px;
+  margin: 10px 0px 0px 30px;
   font-family: "Roboto", sans-serif;
   font-style: bold;
   font-weight: 600;
@@ -382,6 +352,7 @@ main .textos_main_recetario {
   font-style: bold;
   font-weight: 700;
   font-size: 20px;
+  color: black;
 }
 
 .textos_section_recetarios p {
@@ -438,6 +409,60 @@ main .textos_main_recetario {
   }
 }
 /****** FIN PAGINA RECETARIO ******/
+/*Fonts styles nav*/
+/*Fonts styles Titulos main*/
+/*Fonts styles Titulos main resposive max 768 /1024*/
+/*Fonts styles Titulos intermedios*/
+/*Font styles Footer*/
+/*Fonts styles pages recetarios - galeria tematica*/
+/*sub titulos pages recetarios - galeria tematica*/
+/*Textos pages recetarios - galeria tematica*/
+/*Textos <p> pages recetarios - galeria tematica*/
+/**----------APLICANDO BOOTSTRAP------------**/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.comentario_fondo {
+  background-color: #eee;
+}
+
+.nosotros_contenedor {
+  max-width: 80%;
+}
+
+/*---------sub pages ------*/
+.recetas_sub_pages {
+  margin: 2%;
+  border-radius: 20px;
+  background-color: rgba(236, 240, 193, 0.247);
+  box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+  padding: 1%;
+  transition: all 0.25s;
+}
+
+.recetas_sub_pages:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.recetas_sub_pages img {
+  border: solid black 2px;
+  border-radius: 10px;
+}
+
+.recetas_sub_pages h3 {
+  font-weight: bold;
+}
+
+.recetas_texto {
+  padding: 2%;
+}
+
+/**----------FIN BOOTSTRAP------------**/
+/******* PAGINAS CON CSS*******/
 /****PAGES GALERIA TEMATICA****/
 /* MOBILE FIRST */
 main .textos_main_galeria_tematica {
