@@ -588,52 +588,11 @@ main .textos_main_galeria_tematica {
 /*sub titulos pages recetarios - galeria tematica*/
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
-/**----------APLICANDO BOOTSTRAP------------**/
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.comentario_fondo {
-  background-color: #eee;
-}
-
+/*--------PAGES NOSOTROS----------*/
 .nosotros_contenedor {
   max-width: 80%;
 }
 
-/*---------sub pages ------*/
-.recetas_sub_pages {
-  margin: 2%;
-  border-radius: 20px;
-  background-color: rgba(236, 240, 193, 0.247);
-  box-shadow: 0 2px rgba(0, 0, 0, 0.2);
-  padding: 1%;
-  transition: all 0.25s;
-}
-
-.recetas_sub_pages:hover {
-  transform: translateY(-15px);
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-
-.recetas_sub_pages img {
-  border: solid black 2px;
-  border-radius: 10px;
-}
-
-.recetas_sub_pages h3 {
-  font-weight: bold;
-}
-
-.recetas_texto {
-  padding: 2%;
-}
-
-/**----------FIN BOOTSTRAP------------**/
-/******* PAGINAS CON CSS*******/
-/*--------PAGES NOSOTROS----------*/
 .text_creador h5 {
   color: black;
   font-family: "Roboto", sans-serif;
@@ -687,7 +646,20 @@ main .textos_main_galeria_tematica {
   }
 }
 /****** FIN PAGINA NOSOTROS ******/
+/*Fonts styles nav*/
+/*Fonts styles Titulos main*/
+/*Fonts styles Titulos main resposive max 768 /1024*/
+/*Fonts styles Titulos intermedios*/
+/*Font styles Footer*/
+/*Fonts styles pages recetarios - galeria tematica*/
+/*sub titulos pages recetarios - galeria tematica*/
+/*Textos pages recetarios - galeria tematica*/
+/*Textos <p> pages recetarios - galeria tematica*/
 /*--------PAGES COMENTARIOS----------*/
+.comentario_fondo {
+  background-color: #eee;
+}
+
 .text_comentario h2 {
   color: black;
   font-family: "Roboto", sans-serif;
@@ -721,8 +693,44 @@ main .textos_main_galeria_tematica {
   }
 }
 /*--------FIN PAGES COMENTARIOS----------*/
+/*Fonts styles nav*/
+/*Fonts styles Titulos main*/
+/*Fonts styles Titulos main resposive max 768 /1024*/
+/*Fonts styles Titulos intermedios*/
+/*Font styles Footer*/
+/*Fonts styles pages recetarios - galeria tematica*/
+/*sub titulos pages recetarios - galeria tematica*/
+/*Textos pages recetarios - galeria tematica*/
+/*Textos <p> pages recetarios - galeria tematica*/
 /*--------SUB PAGES COCINATE ALGO----------*/
 /* MOBILE FIRST */
+.recetas_sub_pages {
+  margin: 2%;
+  border-radius: 20px;
+  background-color: rgba(236, 240, 193, 0.247);
+  box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+  padding: 1%;
+  transition: all 0.25s;
+}
+
+.recetas_sub_pages:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.recetas_sub_pages img {
+  border: solid black 2px;
+  border-radius: 10px;
+}
+
+.recetas_sub_pages h3 {
+  font-weight: bold;
+}
+
+.recetas_texto {
+  padding: 2%;
+}
+
 main .textos_main_cocinate_algo {
   display: flex;
   width: 100%;
@@ -797,64 +805,15 @@ main .textos_main_cocinate_algo {
   }
 }
 /****** FIN SUB PAGES COCINATE ALGO ***/
-/****** SUB PAGES TE PINTO UN TRAGO ******/
-/* MOBILE FIRST */
-main .textos_main_preparate_un_trago {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  justify-content: flex-end;
-  flex-direction: column;
-  letter-spacing: 0.03em;
-  line-height: 1.6;
-  position: relative;
-  overflow: hidden;
-}
-
-.img_main_preparate_un_trago {
-  display: flex;
-  width: 100%;
-  height: 50vh;
-  align-items: center;
-  justify-content: flex-end;
-  flex-direction: column;
-  letter-spacing: 0.03em;
-  line-height: 1.6;
-  background-image: url(../imagenes/imagen18.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: unset;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.textos_main_preparate_un_trago h2 {
-  font-family: "Caveat", cursive;
-  font-style: bold;
-  font-weight: 900;
-  font-size: 35px;
-  color: black;
-}
-
-@media (min-width: 768px) {
-  .textos_main_preparate_un_trago h2 {
-    font-size: 50px;
-  }
-  .img_main_preparate_un_trago {
-    height: 60vh;
-  }
-}
-@media (min-width: 1024px) {
-  .textos_main_preparate_un_tragoh2 {
-    font-size: 70px;
-  }
-  .img_main_preparate_un_trago {
-    height: 90vh;
-  }
-}
-/****** FIN SUB PAGES PREPARATE UN TRAGO ***/
+/*Fonts styles nav*/
+/*Fonts styles Titulos main*/
+/*Fonts styles Titulos main resposive max 768 /1024*/
+/*Fonts styles Titulos intermedios*/
+/*Font styles Footer*/
+/*Fonts styles pages recetarios - galeria tematica*/
+/*sub titulos pages recetarios - galeria tematica*/
+/*Textos pages recetarios - galeria tematica*/
+/*Textos <p> pages recetarios - galeria tematica*/
 /****** SUB PAGES TE HICISTE UN POSTRE ******/
 /* MOBILE FIRST */
 main .textos_main_hiciste_un_postre {
@@ -913,5 +872,81 @@ main .textos_main_hiciste_un_postre {
   }
 }
 /****** SUB PAGES ******/
+/*Fonts styles nav*/
+/*Fonts styles Titulos main*/
+/*Fonts styles Titulos main resposive max 768 /1024*/
+/*Fonts styles Titulos intermedios*/
+/*Font styles Footer*/
+/*Fonts styles pages recetarios - galeria tematica*/
+/*sub titulos pages recetarios - galeria tematica*/
+/*Textos pages recetarios - galeria tematica*/
+/*Textos <p> pages recetarios - galeria tematica*/
+/****** SUB PAGES TE PINTO UN TRAGO ******/
+/* MOBILE FIRST */
+main .textos_main_preparate_un_trago {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  position: relative;
+  overflow: hidden;
+}
+
+.img_main_preparate_un_trago {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  background-image: url(../imagenes/imagen18.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: unset;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.textos_main_preparate_un_trago h2 {
+  font-family: "Caveat", cursive;
+  font-style: bold;
+  font-weight: 900;
+  font-size: 35px;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .textos_main_preparate_un_trago h2 {
+    font-size: 50px;
+  }
+  .img_main_preparate_un_trago {
+    height: 60vh;
+  }
+}
+@media (min-width: 1024px) {
+  .textos_main_preparate_un_tragoh2 {
+    font-size: 70px;
+  }
+  .img_main_preparate_un_trago {
+    height: 90vh;
+  }
+}
+/****** FIN SUB PAGES PREPARATE UN TRAGO ***/
+/*Fonts styles nav*/
+/*Fonts styles Titulos main*/
+/*Fonts styles Titulos main resposive max 768 /1024*/
+/*Fonts styles Titulos intermedios*/
+/*Font styles Footer*/
+/*Fonts styles pages recetarios - galeria tematica*/
+/*sub titulos pages recetarios - galeria tematica*/
+/*Textos pages recetarios - galeria tematica*/
+/*Textos <p> pages recetarios - galeria tematica*/
 
 /*# sourceMappingURL=styles.css.map */

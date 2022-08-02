@@ -1,0 +1,67 @@
+@import "variables";
+
+/****** SUB PAGES TE HICISTE UN POSTRE ******/
+
+/* MOBILE FIRST */
+
+main .textos_main_hiciste_un_postre {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .img_main_hiciste_un_postre {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    background-image: url(../imagenes/imagen20.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .textos_main_hiciste_un_postre h2 {
+    font-family: "Caveat", cursive;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 35px;
+    color: black;
+  }
+  
+  @media (min-width: 768px) {
+    .textos_main_hiciste_un_postre h2 {
+      font-size: 50px;
+    }
+  
+    .img_main_hiciste_un_postre {
+      height: 60vh;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .textos_main_hiciste_un_postre h2 {
+      font-size: 70px;
+    }
+  
+    .img_main_hiciste_un_postre {
+      height: 90vh;
+    }
+  }
+  
+  /****** SUB PAGES ******/
+  
