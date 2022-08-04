@@ -7,6 +7,7 @@
 /*sub titulos pages recetarios - galeria tematica*/
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
+/*map-get*/
 /****** INICIO PAGINA PRINCPAL (INDEX) ******/
 * {
   padding: 0;
@@ -255,6 +256,7 @@ main {
 /*sub titulos pages recetarios - galeria tematica*/
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
+/*map-get*/
 /****PAGES -RECETARIOS-****/
 /* MOBILE FIRST */
 #body_recetario {
@@ -417,6 +419,7 @@ main .textos_main_recetario {
 /*sub titulos pages recetarios - galeria tematica*/
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
+/*map-get*/
 /****PAGES GALERIA TEMATICA****/
 /* MOBILE FIRST */
 main .textos_main_galeria_tematica {
@@ -588,6 +591,7 @@ main .textos_main_galeria_tematica {
 /*sub titulos pages recetarios - galeria tematica*/
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
+/*map-get*/
 /*--------PAGES NOSOTROS----------*/
 .nosotros_contenedor {
   max-width: 80%;
@@ -655,6 +659,7 @@ main .textos_main_galeria_tematica {
 /*sub titulos pages recetarios - galeria tematica*/
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
+/*map-get*/
 /*--------PAGES COMENTARIOS----------*/
 .comentario_fondo {
   background-color: #eee;
@@ -702,6 +707,7 @@ main .textos_main_galeria_tematica {
 /*sub titulos pages recetarios - galeria tematica*/
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
+/*map-get*/
 /*--------SUB PAGES COCINATE ALGO----------*/
 /* MOBILE FIRST */
 .recetas_sub_pages {
@@ -814,6 +820,7 @@ main .textos_main_cocinate_algo {
 /*sub titulos pages recetarios - galeria tematica*/
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
+/*map-get*/
 /****** SUB PAGES TE HICISTE UN POSTRE ******/
 /* MOBILE FIRST */
 main .textos_main_hiciste_un_postre {
@@ -881,6 +888,7 @@ main .textos_main_hiciste_un_postre {
 /*sub titulos pages recetarios - galeria tematica*/
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
+/*map-get*/
 /****** SUB PAGES TE PINTO UN TRAGO ******/
 /* MOBILE FIRST */
 main .textos_main_preparate_un_trago {
@@ -948,5 +956,6 @@ main .textos_main_preparate_un_trago {
 /*sub titulos pages recetarios - galeria tematica*/
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
+/*map-get*/
 
 /*# sourceMappingURL=styles.css.map */

@@ -78,12 +78,17 @@ $font-size-ptext-pg-768: 15px;
 $font-size-ptext-pg-1024: 25px;  
 
 
-
         /*map-get*/
 
-$estilos: (
-  color: #3673D9,
-  centro: center,
-  tFuente: 35px,
-  espacio: 1rem
+$estilos_textos_subpage: (
+        display: flex,
+        width: 100%,
+        height: 100%,
+        align-items: center,
+        justify-content: flex-end,
+        flex-direction: column,
+        letter-spacing: 0.03em,
+        line-height: 1.6,
+        position: relative,
+        overflow: hidden
 );
