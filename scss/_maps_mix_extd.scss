@@ -13,3 +13,27 @@ $estilos_textos_subpage: (
         position: relative,
         overflow: hidden
 );
+
+
+
+/*mixin*/
+
+@mixin card_subpagess_styles($ancho, $alto, $borderd, $margin) {
+    width: $ancho;
+    height: $alto;
+    border-radius: $borderd;
+    margin: $margin;
+  
+
+
+ }
+
+ /*USAR EL MIXIN @INCLUDE*/
+ /* EL ORDEN DE LOS PARAMETROS IMPORTAAAAAAAA */
+ .box {
+    @include card_subpagess_styles(500px, 500px, 16px, 0 2px, 20px);
+ }
+
+ .box2 {
+    @include tamano(600px, 20px)
+ }
