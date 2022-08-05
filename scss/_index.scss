@@ -52,7 +52,7 @@
 }
 
 .logo_cucina {
-  width: auto;
+  width: 200px;
   height: 40px;
 }
 
@@ -99,7 +99,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(56, 45, 33);
   background-image: url(../imagenes/imagen2.webp);
   background-size: cover;
   background-repeat: no-repeat;
@@ -128,7 +127,7 @@ main {
 
 .text_main {
   animation: fadeInUp;
-  animation-duration: 4s;
+  animation-duration: 3s;
 }
 
 .boton_generico {
@@ -196,6 +195,7 @@ main {
   }
 
   .logo_cucina {
+    width: auto;
     height: 50px;
   }
 
