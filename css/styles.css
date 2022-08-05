@@ -777,7 +777,7 @@ main .textos_main_cocinate_algo {
   background-position: center;
   position: relative;
   overflow: hidden;
-  background-image: url(../imagenes/imagen_cocinate_algo.jpg);
+  background-image: url(../imagenes/imagen_cocinate_algo.webp);
 }
 @media screen and (min-width: 768px) {
   .img_main_cocinate_algo {
@@ -873,7 +873,7 @@ main .textos_main_hiciste_un_postre {
   background-position: center;
   position: relative;
   overflow: hidden;
-  background-image: url(../imagenes/imagen20.jpg);
+  background-image: url(../imagenes/imagen20.webp);
 }
 @media screen and (min-width: 768px) {
   .img_main_hiciste_un_postre {
@@ -947,7 +947,7 @@ main .textos_main_preparate_un_trago {
   background-position: center;
   position: relative;
   overflow: hidden;
-  background-image: url(../imagenes/imagen18.jpg);
+  background-image: url(../imagenes/imagen18.webp);
 }
 @media screen and (min-width: 768px) {
   .img_main_preparate_un_trago {
