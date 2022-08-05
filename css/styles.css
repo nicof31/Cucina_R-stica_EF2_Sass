@@ -7,6 +7,9 @@
 /*sub titulos pages recetarios - galeria tematica*/
 /*Textos pages recetarios - galeria tematica*/
 /*Textos <p> pages recetarios - galeria tematica*/
+/*mixin_galeria_tematica*/
+/*map-get-subpages*/
+/*mixin_sub_page*/
 /****** INICIO PAGINA PRINCPAL (INDEX) ******/
 * {
   padding: 0;
@@ -135,14 +138,23 @@ main {
   animation-duration: 4s;
 }
 
-.boton_main {
+.boton_generico, .boton_main,
+.boton_card {
   border: solid 2px #b73413;
   margin-top: 1px;
   font-family: "Caveat", cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
+}
+
+.boton_main {
   -webkit-text-stroke: 0.1px black;
+}
+
+.boton_card {
+  border: solid 1px black;
+  font-weight: 200;
 }
 
 /*Novedades*/

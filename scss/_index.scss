@@ -1,4 +1,5 @@
 @import "variables";
+@import "maps_mix_extd";
 
 /****** INICIO PAGINA PRINCPAL (INDEX) ******/
 * {
@@ -130,14 +131,27 @@ main {
   animation-duration: 4s;
 }
 
-.boton_main {
+.boton_generico {
   border: solid 2px #b73413;
   margin-top: 1px;
   font-family: $font-family-main;
   font-style: $font-style-main;
   font-weight: $font-weight-main;
   font-size: 20px;
+}
+
+.boton_main,
+.boton_card {
+  @extend .boton_generico;
+}
+
+.boton_main {
   -webkit-text-stroke: 0.1px black;
+}
+
+.boton_card {
+  border: solid 1px black;
+  font-weight: 200;
 }
 
 /*Novedades*/
@@ -186,7 +200,7 @@ main {
   }
 
   .text_main h1 {
-    -webkit-text-stroke:$font-webkit-text-stroke-main;
+    -webkit-text-stroke: $font-webkit-text-stroke-main;
     font-size: 60px;
     font-style: $font-style-responsive-main;
   }
@@ -249,13 +263,11 @@ main {
   color: white;
   margin: 10px;
   font-size: 25px;
-          & i:hover {
-            color: orangered;
-            transform: scale(1.1);
-            transition: ease-in-out 0.1s;
-          }
-          
-        }
-
+  & i:hover {
+    color: orangered;
+    transform: scale(1.1);
+    transition: ease-in-out 0.1s;
+  }
+}
 
 /****** FIN PAGINA PRINCPAL (INDEX) ******/
